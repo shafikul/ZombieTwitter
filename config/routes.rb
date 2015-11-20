@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  
   root 'pages#Index'
 
   get '/home'  => 'pages#Home'
